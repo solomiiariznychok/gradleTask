@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DemoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-01T22:02:50" hostname="5CD9324ZK8" time="6.835">
+  <properties/>
+  <testcase name="makeOrder()" classname="DemoTest" time="6.835"/>
+  <system-out><![CDATA[2022-02-02 00:02:50 INFO  WebDriverThreadLocalContainer:155 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+2022-02-02 00:02:50 INFO  FileHelper:56 - Creating folder: C:\Users\sriznych\Documents\gradleIntro\build\downloads\1643752970215_16628_1
+2022-02-02 00:02:51 INFO  WebDriverManager:966 - Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+2022-02-02 00:02:51 INFO  WebDriverManager:1021 - Exporting webdriver.chrome.driver as C:\Users\sriznych\.cache\selenium\chromedriver\win32\97.0.4692.71\chromedriver.exe
+2022-02-02 00:02:54 INFO  HttpClientTimeouts:76 - Changed connectTimeout from PT10S to PT10S
+2022-02-02 00:02:54 INFO  HttpClientTimeouts:77 - Changed readTimeout from PT3M to PT3M
+2022-02-02 00:02:54 INFO  BrowserResizer:28 - Set browser size to 1366x768
+2022-02-02 00:02:54 INFO  WebDriverFactory:135 - BrowserName=chrome Version=97.0.4692.99 Platform=WINDOWS
+2022-02-02 00:02:54 INFO  WebDriverFactory:76 - Selenide v. 6.2.1
+2022-02-02 00:02:54 INFO  WebDriverFactory:129 - Selenium WebDriver v. 4.1.1 build revision: e8fcc2cecf
+2022-02-02 00:02:54 INFO  CreateDriverCommand:80 - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (7754358a63c438cf3b97de043ff8d6d5)
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 65407
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 02, 2022 12:02:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 02, 2022 12:02:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 97, so returning the closest version found: 96
+Feb 02, 2022 12:02:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 97 of 96
+]]></system-err>
+</testsuite>

@@ -1,0 +1,6 @@
+pages/AvailableShoesPage.java
+ pages.AvailableShoesPage
+pages/BasePage.java
+ pages.BasePage
+pages/HomePage.java
+ pages.HomePage
