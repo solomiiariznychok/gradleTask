@@ -4,12 +4,13 @@ import pages.BasePage;
 
 public class DemoTest {
 
+    private final String SNEAKERS_MODEL_FOR_SEARCHING = "Nike Sb Zoom Blazer Mid 864349-107";
+
     @Test
     public void makeOrder() {
         new BasePage()
-                .openRozetkaPage()
-                .selectCategories("Nike Sb Zoom Blazer Mid 864349-107");
-
-        new AvailableShoesPage().moveToAvailableShoesPage();
+                .openHomePage()
+                .selectCategories(SNEAKERS_MODEL_FOR_SEARCHING)
+                .submit();
     }
 }

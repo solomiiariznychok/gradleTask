@@ -6,15 +6,17 @@ import static com.codeborne.selenide.Selenide.$x;
 
 public class HomePage<T extends HomePage> {
 
-    private SelenideElement searchInput = $x("//input");
-    public SelenideElement submitBtn = $x("//button[contains(@class, 'button_color_green')]");
+    private final SelenideElement searchInput = $x("//input");
+    private final SelenideElement submitButton = $x("//button[contains(@class, 'button_color_green')]");
 
-    public void selectCategories(String itemToSearch) {
+    public HomePage selectCategories(String itemToSearch) {
         searchInput.val(itemToSearch);
+
+        return this;
     }
 
     public T submit(){
-        submitBtn.click();
+        submitButton.click();
         return (T) this;
     }
 }
