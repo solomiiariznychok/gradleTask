@@ -19,6 +19,4 @@ public class HomePage<T extends HomePage> {
         submitButton.click();
         return (T) this;
     }
-
-    ///add comment
 }
